@@ -357,3 +357,13 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,packages/overlays/Themes/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+ifeq ($(TARGET_HAS_UDFPS),true)
+PRODUCT_PACKAGES += \
+    UdfpsIcons
+
+ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    UdfpsAnimations
+endif
+endif
