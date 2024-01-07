@@ -400,3 +400,8 @@ endif
 # A11QSUI
 PRODUCT_PACKAGES += \
     A11QSUI
+
+# Utility Overlays
+PRODUCT_PACKAGES += \
+    HideSmartSpace \
+    SmartSpaceOffset
