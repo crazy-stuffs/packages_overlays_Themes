@@ -405,3 +405,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     HideSmartSpace \
     SmartSpaceOffset
+
+# Volume Styles
+PRODUCT_PACKAGES += \
+    VolumeDoubleLayer \
+    VolumeGradient \
+    VolumeNeumorph \
+    VolumeNeumorphOutline \
+    VolumeOutline \
+    VolumeShadedLayer \
+    VolumeAOSPRevamped
