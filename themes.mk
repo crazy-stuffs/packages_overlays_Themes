@@ -17,3 +17,7 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayHidden \
     NavBarGesturalNarrowSpaceOverlay \
     NavBarGesturalNoSpaceOverlay
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
