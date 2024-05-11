@@ -367,3 +367,7 @@ PRODUCT_PACKAGES += \
     UdfpsAnimations
 endif
 endif
+
+# A11QSUI
+PRODUCT_PACKAGES += \
+    A11QSUI
