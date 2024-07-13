@@ -117,6 +117,9 @@ PRODUCT_PACKAGES += \
     ClockFontBigNoodleTiltingOverlay \
     ClockFontCherrySwashOverlay \
     ClockFontHeadlineOverlay \
+    ClockFontIOSOverlay \
+    ClockFontHerculesOverlay \
+    ClockFontSlimOverlay \
     ClockFontRoadRageOverlay \
     ClockFontSnowstormOverlay \
     ClockFontViburOverlay \
