@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
+    AndroidBlackThemeOverlay \
+    AndroidAmoledBlackThemeOverlay
 
 # Fonts
 PRODUCT_PACKAGES += \
